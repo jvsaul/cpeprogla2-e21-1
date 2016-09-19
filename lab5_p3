@@ -43,8 +43,8 @@ int main(){
 		cin.getline(cust[i].name.firstName,29);
 		cout<<"Last Name: ";
 		cin.getline(cust[i].name.lastName,29);
-		//cout<<"Contact No.: ";
-		//cin>>cust[i].contNo;
+		cout<<"Contact No.: ";
+		cin>>cust[i].contNo;
 		cout<<"ORDER DATE: "<<endl;
 		cout<<"Day: ";
 		cin>>cust[i].order.day;
@@ -56,14 +56,14 @@ int main(){
 		for (j=0;j<3;j++){
 		    cout<<"ID: ";
 		    cin>>cust[i].order.item[j].ID;
-	    	NewLine();
-    	    cout<<"Name: ";
-    		cin.getline(cust[i].order.item[j].itemName,29);
-    		cout<<"Price: ";
-    		cin>>cust[i].order.item[j].Price;
-    		cout<<"Quantity: ";
-    		cin>>cust[i].order.quant;
-    		cout<<endl;
+        	    NewLine();
+         	    cout<<"Name: ";
+        	    cin.getline(cust[i].order.item[j].itemName,29);
+        	    cout<<"Price: ";
+    		    cin>>cust[i].order.item[j].Price;
+    		    cout<<"Quantity: ";
+    		    cin>>cust[i].order.quant;
+    		    cout<<endl;
 		}
 		NewLine();
 }
