@@ -43,10 +43,10 @@ int main(){
 		}
 		cout<<setw(5)<<i+1<<setw(20)<<stud[i].ID<<setw(30)<<stud[i].studname<<setw(15)<<setprecision(4)<<grade/3<<setw(20);
 			if( grade>=75 ){
-				cout<<"Passed";
+				cout<<"Passed"<<endl;
 			}
 			else{
-				cout<<"Failed";
+				cout<<"Failed"<<endl;
 			}		
 	}
 	
