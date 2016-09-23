@@ -37,7 +37,7 @@ struct Customer{
 
 int main(){
 	Customer cust[3];
-	for (i=0;i<2;i++){
+	for (i=0;i<3;i++){
 		cout<<"CUSTOMER INFORMATION "<<i+1<<endl;
 		cout<<"First Name: ";
 		cin.getline(cust[i].name.firstName,29);
