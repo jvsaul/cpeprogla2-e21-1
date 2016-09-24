@@ -135,6 +135,9 @@ int main(){
 		case 5:
 			prob5();
 			break;
+		case 6:
+			prob6();
+			break;
 	}
 	
 	return 0;
