@@ -10,7 +10,7 @@ int main(){
     int hashmat, opponent;
     
     while (f >> hashmat >> opponent) {
-          cout << abs(hashmat-opponent);      
+          cout << abs(hashmat-opponent) << endl;      
     }
     
     system("pause");
